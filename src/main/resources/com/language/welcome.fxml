@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.WelcomeController">
+   <stylesheets>
+      <URL value="@styles.css" />
+   </stylesheets>
+   <children>
+      <ButtonBar id="pane" prefHeight="388.0" prefWidth="1880.0">
+        <buttons>
+          <Button id="exercise-button" mnemonicParsing="false" onAction="#StartExercise" prefWidth="235.0" text="Start Exercise" textFill="WHITE" />
+        </buttons>
+         <padding>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+         </padding>
+      </ButtonBar>
+      <GridPane prefHeight="145.0" prefWidth="1880.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="24.000015258789062" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="205.0" minHeight="10.0" prefHeight="205.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="58.666656494140625" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text id="subheading" strokeType="OUTSIDE" strokeWidth="0.0" text="LEARN" wrappingWidth="114.13672256469727" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Text>
+            <Text id="subheading" strokeType="OUTSIDE" strokeWidth="0.0" text="PROGRESS" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Text>
+            <Text id="subheading" strokeType="OUTSIDE" strokeWidth="0.0" text="ACCOUNT" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin></Text>
+         </children>
+         <VBox.margin>
+            <Insets bottom="40.0" top="40.0" />
+         </VBox.margin>
+      </GridPane>
+      <GridPane prefHeight="1162.0" prefWidth="1880.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="980.0" minHeight="10.0" prefHeight="980.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="308.333251953125" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="48.3333740234375" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane hgap="40.0" prefHeight="600.0" prefWidth="627.0" vgap="30.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="627.0" minWidth="10.0" prefWidth="627.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.0" minWidth="0.0" prefWidth="0.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="374.3333740234375" minHeight="10.0" prefHeight="255.66666666666669" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="230.66661580403644" minHeight="10.0" prefHeight="161.666748046875" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="203.6666259765625" minHeight="10.0" prefHeight="162.333251953125" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="153.33333333333337" minHeight="10.0" prefHeight="141.33333333333337" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Pane id="purple-pane" prefHeight="0.0" prefWidth="577.0">
+                     <children>
+                  <GridPane prefHeight="400.0" prefWidth="577.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="577.0" minWidth="10.0" prefWidth="577.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="276.66668701171875" minWidth="0.0" prefWidth="0.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="204.6666259765625" minHeight="10.0" prefHeight="169.99991861979166" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="250.0" minHeight="10.0" prefHeight="229.3334147135417" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <GridPane prefHeight="98.0" prefWidth="577.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="275.66668701171875" minWidth="10.0" prefWidth="141.00001525878906" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="439.99998474121094" minWidth="10.0" prefWidth="435.99998474121094" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="186.0" minHeight="10.0" prefHeight="186.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="62.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="36.66668701171875" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Text id="bold-text" strokeType="OUTSIDE" strokeWidth="0.0" text="You're doing great today!" wrappingWidth="405.640625" GridPane.columnIndex="1">
+                                       <GridPane.margin>
+                                          <Insets top="15.0" />
+                                       </GridPane.margin></Text>
+                              <Pane id="purple-pane" prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <ImageView fitHeight="75.0" fitWidth="66.0" layoutX="55.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../images/sparkles.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children></Pane>
+                           </children>
+                        </GridPane>
+                        <Text id="text" strokeType="OUTSIDE" strokeWidth="0.0" text="Keep up the good work!" wrappingWidth="501.0357666015625" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                                 <GridPane.margin>
+                                    <Insets left="40.0" right="40.0" />
+                                 </GridPane.margin></Text>
+                     </children>
+                  </GridPane>
+               </children>
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin>
+            </Pane>
+                  <Button id="white-button" mnemonicParsing="false" onAction="#StartExercise" prefHeight="398.0" prefWidth="802.0" text="Start Exercise" textFill="#434343" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button id="white-button" mnemonicParsing="false" onAction="#StartReview" prefHeight="651.0" prefWidth="1065.0" text="Start Review" textFill="#434343" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button id="white-button" mnemonicParsing="false" onAction="#StartStory" prefHeight="946.0" prefWidth="1190.0" text="Start Story" textFill="#434343" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+         </children>
+               <GridPane.margin>
+                  <Insets bottom="20.0" />
+               </GridPane.margin>
+            </GridPane>
+            <Pane id="pane" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets bottom="20.0" />
+               </padding>
+               <children>
+                  <GridPane hgap="20.0" layoutX="-6.0" layoutY="-69.0" prefHeight="890.0" prefWidth="614.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="614.0" minWidth="10.0" prefWidth="614.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="281.666748046875" minWidth="0.0" prefWidth="0.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="200.333251953125" minHeight="0.0" prefHeight="78.66663360595703" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="200.333251953125" minHeight="0.0" prefHeight="87.33336639404297" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="446.0" minHeight="10.0" prefHeight="106.66668192545575" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="399.9999898274739" minHeight="10.0" prefHeight="285.33333333333326" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="495.6666361490886" minHeight="10.0" prefHeight="363.66666666666663" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <GridPane GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="614.0" minWidth="10.0" prefWidth="614.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="288.333251953125" minWidth="0.0" prefWidth="0.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Button id="gray-button" mnemonicParsing="false" prefHeight="214.0" prefWidth="833.0" text="Download Progress">
+                                 <GridPane.margin>
+                                    <Insets left="20.0" right="20.0" top="20.0" />
+                                 </GridPane.margin>
+                              </Button>
+                              <Button id="gray-button" mnemonicParsing="false" prefHeight="391.0" prefWidth="1121.0" text="Share on X" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets left="20.0" right="20.0" top="20.0" />
+                                 </GridPane.margin>
+                              </Button>
+                              <Button id="gray-button" mnemonicParsing="false" prefHeight="690.0" prefWidth="1203.0" text="Share on Instagram" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets left="20.0" right="20.0" top="20.0" />
+                                 </GridPane.margin>
+                              </Button>
+                           </children>
+                        </GridPane>
+                        <PieChart id="pane" fx:id="pieChart" labelsVisible="false" legendVisible="false" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </GridPane.margin>
+                        </PieChart>
+                        <Text id="progress-text" fx:id="progressText" strokeType="OUTSIDE" strokeWidth="0.0" text="You've completed 60% of this level. Keep learning!" wrappingWidth="500.0" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="40.0" />
+                           </GridPane.margin>
+                        </Text>
+                        <Text id="boldest-text" strokeType="OUTSIDE" strokeWidth="0.0" text="Great progress!  🎉" textOrigin="BOTTOM" wrappingWidth="317.03369140625" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="40.0" top="30.0" />
+                           </GridPane.margin>
+                        </Text>
+                     </children>
+                  </GridPane>
+               </children></Pane>
+            <GridPane GridPane.columnIndex="2">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="626.0" minWidth="10.0" prefWidth="626.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.666748046875" minWidth="0.0" prefWidth="0.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="332.33338928222656" minHeight="10.0" prefHeight="332.33338928222656" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="270.9999745686849" minHeight="10.0" prefHeight="147.00000000000006" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="404.6666259765625" minHeight="10.0" prefHeight="382.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <GridPane.margin>
+                  <Insets left="20.0" right="20.0" />
+               </GridPane.margin>
+               <children>
+                  <GridPane prefHeight="52.0" prefWidth="576.0" GridPane.rowIndex="1">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="423.666748046875" minWidth="10.0" prefWidth="409.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="275.66650390625" minWidth="10.0" prefWidth="177.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="121.33341979980469" minHeight="10.0" prefHeight="105.33338928222656" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="181.0" minHeight="10.0" prefHeight="111.66661071777344" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="50.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Text id="boldest-text" strokeType="OUTSIDE" strokeWidth="0.0" text="Jane Doe" GridPane.valignment="BOTTOM">
+                           <GridPane.margin>
+                              <Insets left="40.0" />
+                           </GridPane.margin>
+                        </Text>
+                        <Text id="progress-text" strokeType="OUTSIDE" strokeWidth="0.0" text="Jane" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                           <GridPane.margin>
+                              <Insets left="40.0" />
+                           </GridPane.margin>
+                        </Text>
+                     </children>
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </GridPane>
+                  <AnchorPane id="gray-pane" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView id="avatar" fx:id="avatar" fitHeight="333.0" fitWidth="537.0" layoutX="1.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/llama.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <GridPane.margin>
+                        <Insets bottom="10.0" left="20.0" right="50.0" top="20.0" />
+                     </GridPane.margin>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

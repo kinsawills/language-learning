@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.ProgressController">
+   <children>
+      <HBox alignment="CENTER" spacing="20.0">
+         <Button fx:id="leftButton" mnemonicParsing="false" onAction="#ReturnHome" prefHeight="51.0" prefWidth="130.0" style="-fx-background-color: 80D777;" text="Home" />
+         <Label id="title" alignment="CENTER" stylesheets="@styles.css" text="User Progress" />
+      </HBox>
+      <VBox prefHeight="850.0" prefWidth="1880.0">
+         <children>
+            <VBox fx:id="vbox_flashcard" alignment="CENTER" prefHeight="650.0" prefWidth="1920.0" style="-fx-background-color: white; -fx-border-radius: 8; -fx-border-color: cccccc;">
+               <children>
+                  <Text id="txt_englishPhrase" fx:id="txt_englishPhrase" strokeType="OUTSIDE" strokeWidth="0.0" text="{{english_phrase}}">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Text>
+                  <Text id="txt_translatedPhrase" fx:id="txt_translatedPhrase" fill="#909090" strokeType="OUTSIDE" strokeWidth="0.0" text="(hidden)">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="70.0" />
+                     </VBox.margin>
+                  </Text>
+               </children>
+            </VBox>
+            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="1880.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#revealAnswer" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: B886F8;">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <graphic>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Reveal Answer 👁">
+                           <font>
+                              <Font name="System Bold" size="32.0" />
+                           </font>
+                        </Text>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#nextCard" prefHeight="100.0" prefWidth="300.0">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Next Card →">
+                           <font>
+                              <Font name="System Bold" size="32.0" />
+                           </font>
+                        </Text>
+                     </graphic>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <stylesheets>
+      <URL value="@styles.css" />
+   </stylesheets>
+</VBox>

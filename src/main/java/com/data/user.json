@@ -1,0 +1,121 @@
+[
+  {
+    "birthday": "2003-05-14",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "password": "doe",
+    "emailAddress": "JaneDoe@gmail.com",
+    "userProgress": [
+      {
+        "difficulty": 1,
+        "phraseProgress": [
+          { "phrase": "ca0f8b81-6a16-4a44-96a0-b4fc8cb2e8d2", "integer": 1 },
+          { "phrase": "77879555-3098-4a9f-8c23-c348a62e2b65", "integer": 1 },
+          { "phrase": "18b497a2-41fd-426d-aa09-aadbcda407b2", "integer": 1 }
+        ],
+        "currentStory": 1,
+        "language": "3085ad7f-139c-4d3e-85e6-52cc0d028a29",
+        "wordProgress": [
+          { "integer": 0, "word": "00a54e77-b9af-4068-ace0-7bc4bda3b744" },
+          { "integer": 0, "word": "99098414-5326-466c-bb0e-481f0c3beaab" }
+        ]
+      }
+    ],
+    "avatar": { "character": "LLAMA", "hat": "NONE" },
+    "uuid": "a9fc5c37-053b-479e-9741-7f0bb0e525ae",
+    "friends": [],
+    "username": "jane",
+    "points": 0
+  },
+  {
+    "birthday": "2003-03-05",
+    "firstName": "Christian",
+    "lastName": "Ruff",
+    "password": "r",
+    "emailAddress": "c",
+    "userProgress": [
+      {
+        "difficulty": 1,
+        "phraseProgress": [
+          { "phrase": "e7a96c42-05e6-492d-8751-2a098f4e9c4b", "integer": 0 },
+          { "phrase": "7ab8c13e-2d42-40d4-8cb5-f7a3a048d7ec", "integer": -1 },
+          { "phrase": "ca0f8b81-6a16-4a44-96a0-b4fc8cb2e8d2", "integer": 0 },
+          { "phrase": "b343e4b2-38e4-4d3f-b370-ff7fd7f6cf4d", "integer": -1 },
+          { "phrase": "1a239a50-09e6-45d7-9a2d-1258790b7f9e", "integer": 0 },
+          { "phrase": "77879555-3098-4a9f-8c23-c348a62e2b65", "integer": -1 },
+          { "phrase": "47e153b5-92de-42c4-99e4-92fbb086df15", "integer": -1 },
+          { "phrase": "3c7c2063-6549-4a4b-8e10-2b9b8b9c58eb", "integer": -1 },
+          { "phrase": "18b497a2-41fd-426d-aa09-aadbcda407b2", "integer": 1 },
+          { "phrase": "2cd137d1-d15e-4981-a80a-9b4b4f7e9d60", "integer": 1 }
+        ],
+        "currentStory": 0,
+        "language": "3085ad7f-139c-4d3e-85e6-52cc0d028a29",
+        "wordProgress": []
+      }
+    ],
+    "avatar": { "character": "LLAMA", "hat": "NONE" },
+    "uuid": "7153d275-37cc-471d-a625-69d3d02c385a",
+    "friends": [],
+    "username": "c",
+    "points": 0
+  },
+  {
+    "birthday": "2004-06-24",
+    "firstName": "Tammy",
+    "lastName": "Tomacka",
+    "password": "tomacka",
+    "emailAddress": "tammytomacka@gmail.com",
+    "userProgress": [
+      {
+        "difficulty": 1,
+        "phraseProgress": [
+          { "phrase": "e7a96c42-05e6-492d-8751-2a098f4e9c4b", "integer": -1 },
+          { "phrase": "7ab8c13e-2d42-40d4-8cb5-f7a3a048d7ec", "integer": -1 },
+          { "phrase": "ca0f8b81-6a16-4a44-96a0-b4fc8cb2e8d2", "integer": -1 },
+          { "phrase": "b343e4b2-38e4-4d3f-b370-ff7fd7f6cf4d", "integer": -1 },
+          { "phrase": "1a239a50-09e6-45d7-9a2d-1258790b7f9e", "integer": -1 },
+          { "phrase": "77879555-3098-4a9f-8c23-c348a62e2b65", "integer": -1 },
+          { "phrase": "47e153b5-92de-42c4-99e4-92fbb086df15", "integer": -1 },
+          { "phrase": "3c7c2063-6549-4a4b-8e10-2b9b8b9c58eb", "integer": -1 },
+          { "phrase": "18b497a2-41fd-426d-aa09-aadbcda407b2", "integer": -1 },
+          { "phrase": "2cd137d1-d15e-4981-a80a-9b4b4f7e9d60", "integer": -1 }
+        ],
+        "currentStory": 0,
+        "language": "3085ad7f-139c-4d3e-85e6-52cc0d028a29",
+        "wordProgress": []
+      }
+    ],
+    "avatar": { "character": "LLAMA", "hat": "NONE" },
+    "uuid": "3fc4f698-43bd-400b-9161-8081e0ae98b1",
+    "friends": [],
+    "username": "ttomacka",
+    "points": 0
+  },
+  {
+    "birthday": "2000-10-20",
+    "firstName": "Tim",
+    "lastName": "Tomacka",
+    "password": "ttom",
+    "emailAddress": "akjdfkaj",
+    "userProgress": [
+      {
+        "difficulty": 1,
+        "phraseProgress": [
+          { "phrase": "e7a96c42-05e6-492d-8751-2a098f4e9c4b", "integer": -1 },
+          { "phrase": "ca0f8b81-6a16-4a44-96a0-b4fc8cb2e8d2", "integer": 1 },
+          { "phrase": "1a239a50-09e6-45d7-9a2d-1258790b7f9e", "integer": -1 },
+          { "phrase": "77879555-3098-4a9f-8c23-c348a62e2b65", "integer": 1 },
+          { "phrase": "18b497a2-41fd-426d-aa09-aadbcda407b2", "integer": 1 }
+        ],
+        "currentStory": 0,
+        "language": "3085ad7f-139c-4d3e-85e6-52cc0d028a29",
+        "wordProgress": []
+      }
+    ],
+    "avatar": { "character": "LLAMA", "hat": "NONE" },
+    "uuid": "ad9a1bda-8338-4472-9233-e3c61556210a",
+    "friends": [],
+    "username": "ttom",
+    "points": 0
+  }
+]

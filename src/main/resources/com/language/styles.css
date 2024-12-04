@@ -1,0 +1,154 @@
+.root {
+  -fx-background-color: #f5f5f5;
+}
+.button {
+  -fx-background-color: #79d96f;
+  -fx-font-size: 24px;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+}
+
+#title {
+  -fx-font-size: 40px;
+  -fx-padding: 20px;
+}
+
+#login_form {
+  -fx-background-color: white;
+  -fx-width: 50%;
+}
+
+#field {
+  -fx-font-size: 24px;
+  -fx-padding: 6px;
+}
+
+#error_message {
+  -fx-font-size: 18px;
+  -fx-font-size: 24px;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+}
+
+#exercise-button {
+  -fx-background-color: #b886f8;
+  -fx-background-radius: 5;
+}
+
+.grid {
+  -fx-background-color: white;
+  -fx-background-radius: 5;
+  -fx-background-insets: 0 5 0 5;
+  -fx-padding: 10;
+  -fx-hgap: 10;
+  -fx-vgap: 10;
+}
+
+#pane {
+  -fx-background-color: white;
+  -fx-background-radius: 10;
+  -fx-border-radius: 10;
+  -fx-border-color: #cecece;
+}
+
+#light-purple-button {
+  -fx-background-color: #e4cfff;
+}
+
+#white-button {
+  -fx-background-color: white;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+}
+
+.button-bar {
+  -fx-background-color: white;
+}
+
+#avatar-button {
+  -fx-background-color: #e4cfff;
+  -fx-background-radius: 100;
+  -fx-border-radius: 100;
+  -fx-width: 70px;
+}
+
+#subheading {
+  -fx-font-weight: bold;
+  -fx-font-size: 25px;
+  -fx-text-fill: #6c6c6c;
+  -fx-text-align: center;
+}
+
+#bold-text {
+  -fx-font-family: Arial, Helvetica, sans-serif;
+  -fx-font-weight: 900;
+  -fx-font-size: 35px;
+  -fx-text-fill: #3c1f62;
+}
+
+#text {
+  -fx-font-family: Arial, Helvetica, sans-serif;
+  -fx-font-weight: normal;
+  -fx-font-size: 28px;
+  -fx-text-fill: #3c1f62;
+  -fx-text-alignment: left;
+}
+
+#purple-pane {
+  -fx-background-color: #e4cfff;
+  -fx-background-radius: 10;
+  -fx-border-radius: 10;
+}
+
+#gray-pane {
+  -fx-background-color: #f2f2f2;
+  -fx-background-radius: 10;
+  -fx-border-radius: 10;
+  -fx-border-color: #dce0e7;
+  -fx-display: flex;
+}
+
+#gray-button {
+  -fx-background-color: #f2f2f2;
+  -fx-background-radius: 10;
+}
+
+#progress-text {
+  -fx-font-size: 24px;
+  -fx-text-fill: #9a9a9a;
+  -fx-text-alignment: left;
+  -fx-font-weight: medium;
+}
+
+#boldest-text {
+  -fx-font-family: Arial, Helvetica, sans-serif;
+  -fx-font-weight: 900;
+  -fx-font-size: 35px;
+  -fx-text-fill: #4f4f4f;
+}
+
+#blue-button {
+  -fx-background-color: #4d86ff;
+  -fx-font-size: 24px;
+  -fx-border-color: #bbbbbb;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+}
+
+#avatar {
+  -fx-padding: 10;
+  -fx-background-color: #cecece;
+  -fx-background-radius: 10;
+}
+
+#white-button {
+  -fx-background-color: white;
+  -fx-background-radius: 10;
+  -fx-border-color: #cecece;
+}
+.custom-text-area {
+  -fx-control-inner-background: #79d96f;
+  -fx-font-family: Arial, Helvetica, sans-serif;
+  -fx-font-size: 20px;
+  -fx-wrap-text: true;
+}

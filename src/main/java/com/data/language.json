@@ -1,0 +1,398 @@
+[
+  {
+    "uuid": "3085ad7f-139c-4d3e-85e6-52cc0d028a29",
+    "nameOfLanguage": "Spanish",
+    "stories": [
+      {
+        "title": "Greeting Ana!",
+        "englishStory": "Good morning! My name is Ana. Nice to meet you.",
+        "spanishStory": "¡Buenos días! Me llamo Ana. Mucho gusto."
+      },
+      {
+        "title": "Good night Marco!",
+        "englishStory": "It's time to go to sleep. Drink a glass of milk and good night, Marco!",
+        "spanishStory": "Es hora de irse a dormir. Bebe un vaso de leche y ¡buenas noches, Marco!"
+      }
+    ],
+    "words": [
+      {
+        "uuid": "00a54e77-b9af-4068-ace0-7bc4bda3b744",
+        "englishWord": "good",
+        "translatedWord": "buenos",
+        "pronunciation": "bwen-ose",
+        "gender": "MASCULINE",
+        "partOfSpeech": "ADJECTIVE",
+        "difficulty": 1
+      },
+      {
+        "uuid": "99098414-5326-466c-bb0e-481f0c3beaab",
+        "englishWord": "good",
+        "translatedWord": "buenas",
+        "pronunciation": "bwen-ahs",
+        "gender": "FEMININE",
+        "partOfSpeech": "ADJECTIVE",
+        "difficulty": 1
+      },
+      {
+        "uuid": "a961da70-ddf9-4134-982a-d9a150715c1a",
+        "englishWord": "morning",
+        "translatedWord": "días",
+        "pronunciation": "dee-ahs",
+        "gender": "MASCULINE",
+        "partOfSpeech": "NOUN",
+        "difficulty": 1
+      },
+      {
+        "uuid": "795891c4-3173-49ce-aa6d-0eaafe57f84a",
+        "englishWord": "night",
+        "translatedWord": "noches",
+        "pronunciation": "noh-chey",
+        "gender": "FEMININE",
+        "partOfSpeech": "NOUN",
+        "difficulty": 1
+      },
+      {
+        "uuid": "a52257bc-23e1-4338-a846-9b765f1d1b5e",
+        "englishWord": "bye",
+        "translatedWord": "adios",
+        "pronunciation": "bwen-ose",
+        "gender": "NEITHER",
+        "partOfSpeech": "INTERJECTION",
+        "difficulty": 1
+      },
+      {
+        "uuid": "b018bfd4-afb1-4cdd-bf13-3f58aad5279c",
+        "englishWord": "milk",
+        "translatedWord": "leche",
+        "pronunciation": "leh-che",
+        "gender": "FEMININE",
+        "partOfSpeech": "NOUN",
+        "difficulty": 1
+      },
+      {
+        "uuid": "b33aaaf8-c067-42bd-837d-28276098767c",
+        "englishWord": "bad",
+        "translatedWord": "mala",
+        "pronunciation": "mahl-ah",
+        "gender": "FEMININE",
+        "partOfSpeech": "ADJECTIVE",
+        "difficulty": 1
+      },
+      {
+        "uuid": "cbe7d1b6-2cf8-4eeb-9c23-ef9e0b4375ab",
+        "englishWord": "happy",
+        "translatedWord": "feliz",
+        "pronunciation": "feh-lees",
+        "gender": "NEITHER",
+        "partOfSpeech": "ADJECTIVE",
+        "difficulty": 1
+      },
+      {
+        "uuid": "90c19d32-d4eb-404e-bf8e-4c25129c2c35",
+        "englishWord": "life",
+        "translatedWord": "vida",
+        "pronunciation": "vee-dah",
+        "gender": "FEMININE",
+        "partOfSpeech": "NOUN",
+        "difficulty": 1
+      },
+      {
+        "uuid": "ffadad91-dab8-42df-8903-31f78f3e8bda",
+        "englishWord": "birthday",
+        "translatedWord": "cumpleanos",
+        "pronunciation": "koom-pleh-ah-nyos",
+        "gender": "MASCULINE",
+        "partOfSpeech": "NOUN",
+        "difficulty": 1
+      },
+      {
+        "uuid": "5d3b8903-8f77-4a98-bf9f-6a3b726761f2",
+        "englishWord": "where",
+        "translatedWord": "donde",
+        "pronunciation": "dohn-deh",
+        "gender": "NEUTER",
+        "partOfSpeech": "ADVERB",
+        "difficulty": 1
+      },
+      {
+        "uuid": "19d4b1de-6388-46bb-9e5a-dfc5410aeb5a",
+        "englishWord": "library",
+        "translatedWord": "biblioteca",
+        "pronunciation": "bee-blee-oh-teh-kah",
+        "gender": "FEMININE",
+        "partOfSpeech": "NOUN",
+        "difficulty": 1
+      },
+      {
+        "uuid": "21d4c41a-3347-4fc4-9e63-8c21d2e7f07d",
+        "englishWord": "bathroom",
+        "translatedWord": "bano",
+        "pronunciation": "bahn-yoh",
+        "gender": "MASCULINE",
+        "partOfSpeech": "NOUN",
+        "difficulty": 1
+      },
+      {
+        "uuid": "4ad5d8ef-4c3c-442b-bb3d-455674f3d92e",
+        "englishWord": "house",
+        "translatedWord": "casa",
+        "pronunciation": "kah-sah",
+        "gender": "FEMININE",
+        "partOfSpeech": "NOUN",
+        "difficulty": 1
+      },
+      {
+        "uuid": "5d98b83a-0f37-44b7-a9c7-3e197248ffb8",
+        "englishWord": "your",
+        "translatedWord": "tu",
+        "pronunciation": "too",
+        "gender": "NEITHER",
+        "partOfSpeech": "POSSESSIVE_ADJECTIVE",
+        "difficulty": 1
+      },
+      {
+        "uuid": "7f372b7e-bbbd-4ee1-88e6-dca18c6af2b0",
+        "englishWord": "red",
+        "translatedWord": "roja",
+        "pronunciation": "roh-hah",
+        "gender": "FEMININE",
+        "partOfSpeech": "ADJECTIVE",
+        "difficulty": 1
+      },
+      {
+        "uuid": "ce5eab34-2f5f-4c7b-b7a4-5ddbdd6d882d",
+        "englishWord": "good",
+        "translatedWord": "buen",
+        "pronunciation": "bwen",
+        "gender": "MASCULINE",
+        "partOfSpeech": "ADJECTIVE",
+        "difficulty": 1
+      },
+      {
+        "uuid": "fdfbc8b7-9139-437b-8e17-e02dbb0d6a17",
+        "englishWord": "day",
+        "translatedWord": "dia",
+        "pronunciation": "dee-ah",
+        "gender": "MASCULINE",
+        "partOfSpeech": "NOUN",
+        "difficulty": 1
+      },
+      {
+        "uuid": "88300594-4b76-470a-a89d-ad1e066f89ca",
+        "englishWord": "is",
+        "translatedWord": "esta",
+        "pronunciation": "ehs-tah",
+        "gender": "NEITHER",
+        "partOfSpeech": "VERB",
+        "difficulty": 1
+      },
+      {
+        "uuid": "ad12e5df-d9d3-4cc5-9ed1-7d597f8aee90",
+        "englishWord": "the",
+        "translatedWord": "el",
+        "pronunciation": "ehl",
+        "gender": "MASCULINE",
+        "partOfSpeech": "ARTICLES",
+        "difficulty": 1
+      },
+      {
+        "uuid": "fe54bb6f-0d6c-4996-b828-36a4dc3a2a97",
+        "englishWord": "the",
+        "translatedWord": "la",
+        "pronunciation": "lah",
+        "gender": "FEMININE",
+        "partOfSpeech": "ARTICLES",
+        "difficulty": 1
+      },
+      {
+        "uuid": "b523ae8f-fc1d-4b5d-97be-74319ae8770c",
+        "englishWord": "my",
+        "translatedWord": "mi",
+        "pronunciation": "mee",
+        "gender": "NEITHER",
+        "partOfSpeech": "ADJECTIVES",
+        "difficulty": 1
+      },
+      {
+        "uuid": "c15ae5d4-70d6-45b7-89ac-8773b23ec48f",
+        "englishWord": "have",
+        "translatedWord": "tenga",
+        "pronunciation": "teh-nehr",
+        "gender": "NEITHER",
+        "partOfSpeech": "VERB",
+        "difficulty": 1
+      },
+      {
+        "uuid": "f3f15433-9c85-4b7a-b3e0-feb4a4e728f4",
+        "englishWord": "a",
+        "translatedWord": "un",
+        "pronunciation": "oon",
+        "gender": "MASCULINE",
+        "partOfSpeech": "ARTICLES",
+        "difficulty": 1
+      },
+      {
+        "uuid": "2397f17a-51da-4f3c-b305-2cfc7874a9ff",
+        "englishWord": "a",
+        "translatedWord": "una",
+        "pronunciation": "oo-nah",
+        "gender": "FEMININE",
+        "partOfSpeech": "ARTICLES",
+        "difficulty": 1
+      },
+      {
+        "uuid": "d94c7e5f-48c8-441f-87c8-64f6e773d99c",
+        "englishWord": "is",
+        "translatedWord": "es",
+        "pronunciation": "ehs",
+        "gender": "NEITHER",
+        "partOfSpeech": "VERB",
+        "difficulty": 1
+      }
+    ],
+    "phrases": [
+      {
+        "uuid": "77879555-3098-4a9f-8c23-c348a62e2b65",
+        "englishPhrase": [
+          "00a54e77-b9af-4068-ace0-7bc4bda3b744",
+          "a961da70-ddf9-4134-982a-d9a150715c1a"
+        ],
+        "translatedPhrase": [
+          "00a54e77-b9af-4068-ace0-7bc4bda3b744",
+          "a961da70-ddf9-4134-982a-d9a150715c1a"
+        ],
+        "difficulty": 1
+      },
+      {
+        "uuid": "18b497a2-41fd-426d-aa09-aadbcda407b2",
+        "englishPhrase": [
+          "99098414-5326-466c-bb0e-481f0c3beaab",
+          "795891c4-3173-49ce-aa6d-0eaafe57f84a"
+        ],
+        "translatedPhrase": [
+          "99098414-5326-466c-bb0e-481f0c3beaab",
+          "795891c4-3173-49ce-aa6d-0eaafe57f84a"
+        ],
+        "difficulty": 1
+      },
+      {
+        "uuid": "ca0f8b81-6a16-4a44-96a0-b4fc8cb2e8d2",
+        "englishPhrase": [
+          "b33aaaf8-c067-42bd-837d-28276098767c",
+          "b018bfd4-afb1-4cdd-bf13-3f58aad5279c"
+        ],
+        "translatedPhrase": [
+          "b018bfd4-afb1-4cdd-bf13-3f58aad5279c",
+          "b33aaaf8-c067-42bd-837d-28276098767c"
+        ],
+        "difficulty": 1
+      },
+      {
+        "uuid": "1a239a50-09e6-45d7-9a2d-1258790b7f9e",
+        "englishPhrase": [
+          "cbe7d1b6-2cf8-4eeb-9c23-ef9e0b4375ab",
+          "90c19d32-d4eb-404e-bf8e-4c25129c2c35"
+        ],
+        "translatedPhrase": [
+          "cbe7d1b6-2cf8-4eeb-9c23-ef9e0b4375ab",
+          "90c19d32-d4eb-404e-bf8e-4c25129c2c35"
+        ],
+        "difficulty": 1
+      },
+      {
+        "uuid": "e7a96c42-05e6-492d-8751-2a098f4e9c4b",
+        "englishPhrase": [
+          "cbe7d1b6-2cf8-4eeb-9c23-ef9e0b4375ab",
+          "ffadad91-dab8-42df-8903-31f78f3e8bda"
+        ],
+        "translatedPhrase": [
+          "cbe7d1b6-2cf8-4eeb-9c23-ef9e0b4375ab",
+          "ffadad91-dab8-42df-8903-31f78f3e8bda"
+        ],
+        "difficulty": 1
+      },
+      {
+        "uuid": "2cd137d1-d15e-4981-a80a-9b4b4f7e9d60",
+        "englishPhrase": [
+          "5d3b8903-8f77-4a98-bf9f-6a3b726761f2",
+          "88300594-4b76-470a-a89d-ad1e066f89ca",
+          "fe54bb6f-0d6c-4996-b828-36a4dc3a2a97",
+          "19d4b1de-6388-46bb-9e5a-dfc5410aeb5a"
+        ],
+        "translatedPhrase": [
+          "5d3b8903-8f77-4a98-bf9f-6a3b726761f2",
+          "88300594-4b76-470a-a89d-ad1e066f89ca",
+          "fe54bb6f-0d6c-4996-b828-36a4dc3a2a97",
+          "19d4b1de-6388-46bb-9e5a-dfc5410aeb5a"
+        ],
+        "difficulty": 1
+      },
+      {
+        "uuid": "3c7c2063-6549-4a4b-8e10-2b9b8b9c58eb",
+        "englishPhrase": [
+          "5d3b8903-8f77-4a98-bf9f-6a3b726761f2",
+          "88300594-4b76-470a-a89d-ad1e066f89ca",
+          "ad12e5df-d9d3-4cc5-9ed1-7d597f8aee90",
+          "21d4c41a-3347-4fc4-9e63-8c21d2e7f07d"
+        ],
+        "translatedPhrase": [
+          "5d3b8903-8f77-4a98-bf9f-6a3b726761f2",
+          "88300594-4b76-470a-a89d-ad1e066f89ca",
+          "ad12e5df-d9d3-4cc5-9ed1-7d597f8aee90",
+          "21d4c41a-3347-4fc4-9e63-8c21d2e7f07d"
+        ],
+        "difficulty": 1
+      },
+      {
+        "uuid": "47e153b5-92de-42c4-99e4-92fbb086df15",
+        "englishPhrase": [
+          "b523ae8f-fc1d-4b5d-97be-74319ae8770c",
+          "4ad5d8ef-4c3c-442b-bb3d-455674f3d92e",
+          "d94c7e5f-48c8-441f-87c8-64f6e773d99c",
+          "5d98b83a-0f37-44b7-a9c7-3e197248ffb8",
+          "4ad5d8ef-4c3c-442b-bb3d-455674f3d92e"
+        ],
+        "translatedPhrase": [
+          "b523ae8f-fc1d-4b5d-97be-74319ae8770c",
+          "4ad5d8ef-4c3c-442b-bb3d-455674f3d92e",
+          "d94c7e5f-48c8-441f-87c8-64f6e773d99c",
+          "5d98b83a-0f37-44b7-a9c7-3e197248ffb8",
+          "4ad5d8ef-4c3c-442b-bb3d-455674f3d92e"
+        ],
+        "difficulty": 1
+      },
+      {
+        "uuid": "7ab8c13e-2d42-40d4-8cb5-f7a3a048d7ec",
+        "englishPhrase": [
+          "fe54bb6f-0d6c-4996-b828-36a4dc3a2a97",
+          "4ad5d8ef-4c3c-442b-bb3d-455674f3d92e",
+          "d94c7e5f-48c8-441f-87c8-64f6e773d99c",
+          "7f372b7e-bbbd-4ee1-88e6-dca18c6af2b0"
+        ],
+        "translatedPhrase": [
+          "fe54bb6f-0d6c-4996-b828-36a4dc3a2a97",
+          "4ad5d8ef-4c3c-442b-bb3d-455674f3d92e",
+          "d94c7e5f-48c8-441f-87c8-64f6e773d99c",
+          "7f372b7e-bbbd-4ee1-88e6-dca18c6af2b0"
+        ],
+        "difficulty": 1
+      },
+      {
+        "uuid": "b343e4b2-38e4-4d3f-b370-ff7fd7f6cf4d",
+        "englishPhrase": [
+          "c15ae5d4-70d6-45b7-89ac-8773b23ec48f",
+          "f3f15433-9c85-4b7a-b3e0-feb4a4e728f4",
+          "ce5eab34-2f5f-4c7b-b7a4-5ddbdd6d882d",
+          "fdfbc8b7-9139-437b-8e17-e02dbb0d6a17"
+        ],
+        "translatedPhrase": [
+          "c15ae5d4-70d6-45b7-89ac-8773b23ec48f",
+          "f3f15433-9c85-4b7a-b3e0-feb4a4e728f4",
+          "ce5eab34-2f5f-4c7b-b7a4-5ddbdd6d882d",
+          "fdfbc8b7-9139-437b-8e17-e02dbb0d6a17"
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+]
